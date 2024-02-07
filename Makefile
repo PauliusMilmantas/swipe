@@ -44,7 +44,7 @@ CXX=g++
 CXXFLAGS=$(COMPILEOPT) $(COMMON) -O3
 LINKFLAGS=$(COMMON)
 
-PROG=swipe mpiswipe
+PROG=swipe
 
 all : $(PROG)
 
